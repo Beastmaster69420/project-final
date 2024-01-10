@@ -6,38 +6,45 @@ body {
 }
 
 header {
-    background-color:black;
+    background-color: black;
     color: gold;
     text-align: center;
     padding: 1em 0;
 }
-#hero{
-    position:relative;
-}
-#hero img{
-    width: 100%;
-   height:800px;
-}
-.info{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%);
+
+#hero {
+    position: relative;
     background-color: black;
-    color:gold;
+}
+
+#hero img {
+    width: 100%;
+    height: 800px;
+}
+
+.info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: gold;
     padding: 30px 100px;
     opacity: 0.8;
     text-align: center;
 }
-.info h2{
+
+.info h2 {
     font-family: 'Times New Roman', Times, serif;
-    font-size:30px;
+    font-size: 30px;
     opacity: 1.2;
 }
-.info p{
+
+.info p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:18px;
+    font-size: 18px;
 }
+
 nav {
     background-color: black;
     color: gold;
@@ -57,60 +64,153 @@ nav a {
     color: gold;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 .hero {
     background-size: cover;
-    color:gold;
+    color: gold;
     text-align: center;
     padding: 2em;
 }
-#feature{
+
+#feature {
     padding: 30px 0;
     text-align: center;
     background-color: black;
 }
-#feature h3{
+
+#feature h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:38px;
+    font-size: 38px;
     text-align: center;
-    border-bottom:2px solid navy;
-    display:inline-flex;
-    color:gold;
+    border-bottom: 2px solid navy;
+    display: inline-flex;
+    color: gold;
 }
-.boxes{
+
+.boxes {
     padding-top: 30px;
     display: flex;
 }
-.box{
-    width :30%;
-    position:relative;
+
+.box {
+    width: 30%;
+    position: relative;
 }
-.box img{
+
+.box img {
     width: 100%;
 }
-.box h4{
+
+.box h4 {
     position: absolute;
-    bottom:0;
-    left:0;
+    bottom: 0;
+    left: 0;
     background-color: black;
-    width:100%;
+    width: 100%;
     padding: 20px 0;
-    opacity:0.8;
+    opacity: 0.8;
 }
-.box h4 a{
+
+.box h4 a {
     text-align: left;
-    color:gold;
+    color: gold;
     text-decoration: none;
     font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.box h4 a:hover{
+
+.box h4 a:hover {
     text-decoration: underline;
 }
 
+.form {
+    width: 50%;
+}
 
-footer {
-    background-color:black;
+.form {
+    padding: 10px 20px;
+}
+
+.form h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.form label {
+    display: block;
+    margin: 5px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.form input {
+    padding: 10px;
+    width: 100%;
+}
+
+.form textarea {
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+.form input[type=submit] {
+    padding: 30px 20px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.fighters {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.athlete {
+    padding: 10px 0;
+}
+
+.athlete img {
+    width: 100%;
+    height: 500px;
+    ;
+}
+
+.athlete p {
+    color: gold
+}
+
+#payment {
+    padding:20vh 0;
+    background: rgb(115, 98, 10);
+    background: linear-gradient(90deg, rgba(115, 98, 10, 1) 0%, rgba(45, 39, 4, 1) 0%, rgba(0, 0, 0, 1) 15%, rgba(25, 25, 25, 0.9024859943977591) 63%, rgba(49, 37, 37, 1) 100%, rgba(17, 44, 35, 1) 100%, rgba(0, 0, 0, 1) 100%);
+    color: gold;
+}
+
+.payment {
+    background: rgb(115, 98, 10);
+    background: linear-gradient(90deg, rgba(115, 98, 10, 1) 0%, rgba(45, 39, 4, 1) 0%, rgba(0, 0, 0, 1) 15%, rgba(25, 25, 25, 0.9024859943977591) 63%, rgba(49, 37, 37, 1) 100%, rgba(17, 44, 35, 1) 100%, rgba(0, 0, 0, 1) 100%);
+}
+
+.payment h1 {
     color: gold;
     text-align: center;
-    padding: 1em 0;
+    margin-top: 0px;
+}
+
+.payment form {
+    color: gold;
+    text-align: center;
+    margin: 0px;
+}
+
+footer {
+    background-color: black;
+    color: gold;
+    text-align: center;
+    padding: 1em 0;;
 }

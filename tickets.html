@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFC - Mixed Martial Arts Championship</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>NFC <br> Mixed Martial Arts Championship</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="athletes.html">Athletes</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="tickets.html">Buy Tickets</a></li>
+        </ul>
+    </nav>
+
+    <body>
+        <section class="payment">
+            <h1>Payment Form</h1>
+            <form action="#" id="payment">
+                <p>
+                    Name: <input type="text" id="name">
+                    <span id="nameErr"></span>
+                </p>
+                <p>
+                    Email: <input type="text" id="email">
+                    <span id="emailErr"></span>
+                </p>
+                <p>
+                    <label for="dropdown">Select an Event:</label>
+                    <select id="dropdown" name="dropdown">
+                        <option value="option1">NFC 01</option>
+                        <option value="option2">NFC 02</option>
+                        <option value="option3">NFC 03</option>
+                        <!-- Add more options as needed -->
+                    </select>
+
+
+                </p>
+                <p>
+                    Phone: <input type="text" id="phone">
+                    <span id="phoneErr"></span>
+                </p>
+                <p>
+                    Credit Card No: <input type="text" id="cc">
+                    <span id="creditErr"></span>
+                </p>
+
+                <p>
+                    <input type="submit" value="Send">
+                </p>
+            </form>
+        </section>
+        <footer>
+            <p>&copy; 2024 NFC Championship. All rights reserved.</p>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
