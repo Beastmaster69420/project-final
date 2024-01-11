@@ -10,6 +10,7 @@ header {
     color: gold;
     text-align: center;
     padding: 1em 0;
+    animation: colors 2s infinite;
 }
 
 #hero {
@@ -207,7 +208,28 @@ nav a:hover {
     text-align: center;
     margin: 0px;
 }
-
+@keyframes colors {
+    0% { 
+        color: gold;
+        background-color: black;
+    }
+    25% { 
+        color: orange;
+        background-color: red;
+    }
+    50% { 
+        color: red;
+        background-color: black;
+    }
+    75% { 
+        color:darkorange;
+        background-color: red;
+    }
+    100%{
+        color: goldenrod;
+        background-color: black;
+    }
+}
 footer {
     background-color: black;
     color: gold;

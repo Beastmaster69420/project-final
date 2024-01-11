@@ -35,5 +35,3 @@ function confirm(){
 }
 document.getElementById("booking").addEventListener('submit', validate)
 
-    
-}
